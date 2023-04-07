@@ -14,6 +14,12 @@ namespace ElevenNote.Data
 
         }
 
+        public ApplicationDbContext()
+        {
+            
+        }
+
+
         public DbSet<UserEntity> Users { get; set; }
     }
 }
