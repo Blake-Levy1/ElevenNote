@@ -11,6 +11,6 @@ namespace ElevenNote.Services.User
     {
         Task<bool> RegisterUserAsync(UserRegister model);
 
-        Task<UserDetail> GetUserAsync(UserRegister model);
+        Task<UserDetail> GetUserAsync(int userId);
     }
 }

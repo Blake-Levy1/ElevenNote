@@ -51,7 +51,7 @@ namespace ElevenNote.Services.User
 
             var userDetail = new UserDetail
             {
-                MyProperty = entity.MyProperty,
+                Id = entity.Id,
                 Email = entity.Email,
                 Username = entity.Username,
                 FirstName = entity.FirstName,
